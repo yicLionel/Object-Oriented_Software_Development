@@ -1,3 +1,6 @@
+/**
+ * 用递归求阶乘
+ */
 public class RecursionTest2 {
     public static void main(String[] args) {
         RecursionTest2 re2 = new RecursionTest2();
