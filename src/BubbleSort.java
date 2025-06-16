@@ -10,9 +10,11 @@ public class BubbleSort {
         System.out.println("Enter the length of the array: ");
         int len = scan.nextInt();
         int[] arr = RandomArray(len);
+        // 打印排序前的数组
         System.out.print("before sort: ");
         printArray(arr);
         Bubble_Sort(arr);
+        // 打印排序后的数组
         System.out.print("after sort: ");
         printArray(arr);
     }
