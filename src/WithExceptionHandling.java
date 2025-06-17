@@ -1,3 +1,6 @@
+/**
+ * 关于exception的例子
+ */
 public class WithExceptionHandling {
     public static void main(String[] args) {
         int n1 = 1;
