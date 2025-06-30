@@ -1,4 +1,5 @@
 public class Generics {
+    // return the number of occurrence
     public static void main(String[] args) {
         Integer[] nums = {1, 3, 6, 9, 3, 5, 9, 3, 5, 42, null};
         String[] names = {"Jon", "Arya", "Dany", "Tyrion", "Jon"};

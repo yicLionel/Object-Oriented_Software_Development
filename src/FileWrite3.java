@@ -7,7 +7,7 @@ import java.io.*;
 public class FileWrite3 {
     public static void main(String[] args) {
         try (BufferedReader br = new BufferedReader(new FileReader("test1Out.txt"));
-             PrintWriter pw = new PrintWriter(new FileWriter("output.txt"))) {
+             PrintWriter pw = new PrintWriter(new FileWriter("output_test1Out.txt"))) {
             String text;
             while ((text = br.readLine()) != null) {
                 pw.println(text.toLowerCase());
